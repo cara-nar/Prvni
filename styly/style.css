@@ -1,25 +1,4 @@
 body{
+    background-color: brown;
     text-align: center;
-    
-}
-td,
-th {
-    border: 2px solid greenyellow;
-}
-
-img {
-    size: 50px 50px 50px 50px;
-}
-
-.column {
-float: left;
-width: 50%;
-padding: 10px;
-height: 300px; 
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
 }
