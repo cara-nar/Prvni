@@ -11,5 +11,9 @@ body{
 address {
     display: block;
     font-style: initial;
-    color: #0F0D06
+    color: #0F0D06;
+  }
+  p{
+      color: #0F0D06;
+      text-decoration-style: initial;
   }
