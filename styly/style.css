@@ -18,3 +18,14 @@ input{
     width: 30vw;
 }
 .show {display:block;}
+  p{
+      color: #0F0D06;
+      text-decoration-style: initial;
+  }
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #11559e;
+    color: #FFFAEB;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
