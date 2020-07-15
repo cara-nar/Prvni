@@ -8,3 +8,8 @@ body{
 .mid{
     text-align: center;
 }
+address {
+    display: block;
+    font-style: initial;
+    color: #0F0D06
+  }
