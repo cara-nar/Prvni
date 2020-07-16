@@ -8,7 +8,6 @@ function uloz(coUlozit) {
    console.log(pole);
     window.localStorage.setItem('ha',pole);
 }
-// document.getElementById("myBtn").onclick = function() {myFunction()};
 
 function myF() 
 {
@@ -28,11 +27,11 @@ function zobraz () {
     window.localStorage.getItem(pole[i]);
 }
 
-var count = (function(){
-    var counter = 0;
-    return function(){return counter += 1}
-})
+let counter = 0;
 
 function like(){
-    document.getElementById("pocet").innerHTML = count();
+    counter++;
+    console.log(counter);
+    let inputs = document.getElementsByClassName("pocet");
+    console.log(inputs);
 }
