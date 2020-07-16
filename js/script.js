@@ -1,8 +1,28 @@
+let pole = [];
+let i = 0;
+
 function uloz(coUlozit) {
-   let input = document.getElementById(coUlozit);
-    window.localStorage.setItem('jmeno', input.value);
+   let input = document.getElementById(coUlozit).value;
+   pole.push(input);
+   console.log(pole);
+    window.localStorage.setItem(pole[i], input.value);
+}
+// document.getElementById("myBtn").onclick = function() {myFunction()};
+
+function myF() 
+{
+    document.getElementById("show").classList.toggle("show");
 }
 
-function zobraz (coZobrazit) {
-    document.getElementById('name').innerHTML = coZobrazit + ' - ' + window.localStorage.getItem(coZobrazit);
+function vypis(text) {
+    let salona = document.getElementById('name');
+    window.localStorage.
+    salona.innerHTML= "<p>" + text + "</p>";
+}
+
+function zobraz () {
+    
+    console.log(pole[i]);
+    vypis(pole[i]);
+    window.localStorage.getItem(pole[i]);
 }
