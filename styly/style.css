@@ -22,7 +22,7 @@ input{
       color: #0F0D06;
       text-decoration-style: initial;
   }
-  .card-header {
+.card-header {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
     background-color: #11559e;
@@ -32,6 +32,11 @@ input{
 h4{
     color: #3550BF;
 }
+.fa {
+    font-size: 10vw;
+    cursor: pointer;
+    user-select: none;
+ }
 img {
     display: block;
     margin-left: auto;
