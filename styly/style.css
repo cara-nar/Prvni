@@ -1,72 +1,105 @@
-        body {
-            background-color: #FFFAEB;
-            text-align: center;
-            margin: 6vw;
-        }
-        
-        #drop {
-            color: black;
-        }
-        
-        .mid {
-            text-align: center;
-        }
-        
-        address {
-            display: block;
-            font-style: initial;
-            color: #0F0D06;
-        }
-        
-        input {
-            height: 15vw;
-            width: 30vw;
-        }
-        
-        .show {
-            display: block;
-        }
-        
-        p {
-            color: #0F0D06;
-            text-decoration-style: initial;
-        }
-        
-        .card-header {
-            padding: .75rem 1.25rem;
-            margin-bottom: 0;
-            background-color: #11559e;
-            color: #FFFAEB;
-            border-bottom: 1px solid rgba(0, 0, 0, .125);
-        }
-        
-        h4 {
-            color: #3550BF;
-        }
-        
-        .fa {
-            font-size: 10vw;
-            cursor: pointer;
-            user-select: none;
-        }
-        
-        img {
-            display: inline-block;
-            width: 40vw;
-            height: 40vw;
-            background: #ccc;
-            margin: 5px;
-        }
-        
-        #nene {
-            border-radius: 250px;
-        }
-        
-        small {
-            bottom: 0%;
-        }
-        
-        #of {
-            width: 60vw;
-            height: 30vw;
-        }
+      .show {
+          display: block;
+      }
+      
+      p {
+          color: #0F0D06;
+          text-decoration-style: initial;
+      }
+      
+      h4 {
+          color: #3550BF;
+      }
+      
+      .fa {
+          font-size: 10vw;
+          cursor: pointer;
+          user-select: none;
+      }
+      
+      img {
+          display: inline-block;
+          width: 40vw;
+          height: 40vw;
+          background: #ccc;
+          margin: 5px;
+      }
+      
+      #of {
+          width: 60vw;
+          height: 30vw;
+      }
+      
+      body {
+          background-color: #FFFAEB;
+          text-align: center;
+      }
+      
+      #drop {
+          color: black;
+      }
+      
+      .mid {
+          text-align: center;
+      }
+      
+      address {
+          display: block;
+          font-style: initial;
+          color: #0F0D06;
+      }
+      
+      input {
+          height: 15vw;
+          width: 30vw;
+      }
+      
+      .show {
+          display: block;
+      }
+      
+      p {
+          color: #0F0D06;
+          text-decoration-style: initial;
+      }
+      
+      .card-header {
+          padding: .75rem 1.25rem;
+          margin-bottom: 0;
+          background-color: #11559e;
+          color: #FFFAEB;
+          border-bottom: 1px solid rgba(0, 0, 0, .125);
+      }
+      
+      h4 {
+          color: #3550BF;
+      }
+      
+      .fa {
+          font-size: 10vw;
+          cursor: pointer;
+          user-select: none;
+      }
+      
+      img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 60%;
+      }
+      
+      #nene {
+          border-radius: 250px;
+      }
+      
+      small {
+          bottom: 0%;
+      }
+      
+      .zvyrazneni {
+          background-color: #fdd869;
+      }
+      
+      #blakecy {
+          color: #755a0a;
+      }
