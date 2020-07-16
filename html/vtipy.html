@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,39 +16,41 @@
 
     <script src="../js/script.js"></script>
 </head>
+
 <body>
     <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active" href="../index.html">Home</a>
+            <a class="nav-link active" href="../index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="drop" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MY</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="about-us.html">Kdo jsme</a>
-            <a class="dropdown-item" href="nasUspech.html">Naše úspěchy</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="kontakt.html">Kontakt</a>
-          </div>
+            <a class="nav-link dropdown-toggle" id="drop" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MY</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="about-us.html">Kdo jsme</a>
+                <a class="dropdown-item" href="nasUspech.html">Naše úspěchy</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="kontakt.html">Kontakt</a>
+            </div>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="drop" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Zábava</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="memes.html">Memes</a>
-              <a class="dropdown-item" href="vtipy.html">Vtipy</a>
+                <a class="dropdown-item" href="memes.html">Memes</a>
+                <a class="dropdown-item" href="vtipy.html">Vtipy</a>
             </div>
-          </li>
-        </ul>
-    
-    <br><p>Pokud máte nějaký Váš oblíbený vtip, neváhejte se s ním podělit s ostatními. Napište ho do políčka dole.</p>
+        </li>
+    </ul>
+
+    <br>
+    <p>Pokud máte nějaký Váš oblíbený vtip, neváhejte se s ním podělit s ostatními. Napište ho do políčka dole.</p>
     <br>
     <input type="text" value='' id="vtip" />
     <button onclick="uloz('vtip')">Uloz</button>
     <button id="myBtn" onclick="zobraz()">Nacti</button>
     <br>
     <br>
-    
-    
-   
+
+
+
     <div class="container">
         <div class="row" class="ukaz">
             <br>
@@ -57,164 +60,154 @@
                         Váš vtip:
                     </div>
                     <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <div id="name"></div>
-                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">vtipné</cite></footer> 
-                    </blockquote>
+                        <blockquote class="blockquote mb-0">
+                            <div id="name"></div>
+                            <footer class="blockquote-footer">Jednoduše <cite title="Source Title">vtipné</cite></footer>
+                        </blockquote>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
+    <br>
+    <br>
     <div class="row">
-    <br>
-    <div class="col-md">
-        <div class="card">
-            <div class="card-header">
-              <h3>Vtip</h3>
+        <br>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Vtip</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">Šli dva a prostřední upadl.</p>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">k zamyšlení</cite></footer>
+                    </blockquote>
+                </div>
             </div>
-            <div class="card-body">
-              <blockquote class="blockquote mb-0">
-                <p class="text-monospace">Šli dva a prostřední upadl.</p>
-                <footer class="blockquote-footer">Jednoduše <cite title="Source Title">k zamyšlení</cite></footer>
-              </blockquote>
+        </div>
+
+        <br>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Alkoholický vtip</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">Policista zastaví podnapitého řidiče a ptá se ho:<br> "jste ochotný se podrobit zkoušce na alkohol?"<br> "Jasně, a v které krčmě?"</p><br>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">pro zasmátí</cite></footer>
+                    </blockquote>
+                </div>
             </div>
-          </div>
-    </div>
-    
-      <br>
-      <div class="col-md">
-        <div class="card">
-        <div class="card-header">
-          <h3>Alkoholický vtip</h3>
         </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p class="text-monospace">Policista zastaví podnapitého řidiče a ptá se ho:<br>
-                "jste ochotný se podrobit zkoušce na alkohol?"<br>
-              "Jasně, a v které krčmě?"</p><br>
-            <footer class="blockquote-footer">Jednoduše <cite title="Source Title">pro zasmátí</cite></footer>
-          </blockquote>
-        </div>
-      </div>
     </div>
-</div>
 
-<br>
-<div class="row">
-<div class="col-md">
-    <div class="card">
-    <div class="card-header">
-      <h3>Vtip o mouše</h3>
-    </div>
-    <div class="card-body">
-      <blockquote class="blockquote mb-0">
-          <p class="text-monospace">Křičí host na číšníka:<br>
-          "Prosím vás, mám v pivu mouchu."<br>
-        "To musíte dělat takový rozruch kvůli jedné mouše?<br>
-        Vždyť ona vám toho piva moc nevypije"</p><br>
-        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">ze života</cite></footer>
-      </blockquote>
-    </div>
-</div>
-
-  </div>
-
-  <br>
-  <div class="col-md">
-    <div class="card">
-        <div class="card-header">
-          <h3>Vtip o finanční situaci</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p class="text-monospace">"Mám stále větší a větší problémy s pitím piva."<br> 
-              povídá Honza svému sousedovi v hostinci.<br>
-              "Co, zdraví?"<br>"Ne, nedostatek peněz."</p><br>
-            <footer class="blockquote-footer">Jednoduše <cite title="Source Title">bez peněz</cite></footer>
-          </blockquote>
-        </div>
-      </div>
-  </div>
-</div>
-
-
-<br>
-<div class="row">
-<div class="col-md">
-    <div class="card">
-        <div class="card-header">
-          <h3>Vtip o posilovně</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p class="text-monospace">V posilovně, kam chodím, mají nový stroj!<br>
-              Včera jsem ho vyzkoušel a super... Teda vydržel jsem<br>
-              jenom tak půl hodiny, než mě začalo bolet břicho...<br>
-              ale má opravdu všechno! Kit Kat, tyčinky Mars,<br>
-              Red Bully, Coca coly, brambůrky...</p><br>
-            <footer class="blockquote-footer">Jednoduše <cite title="Source Title">s tukama</cite></footer>
-          </blockquote>
-        </div>
-      </div>
-</div>
-
-  <br>
-
-  <div class="col-md">
-<div class="card">
-    <div class="card-header">
-      <h3>Vtip o kočce</h3>
-    </div>
-    <div class="card-body">
-      <blockquote class="blockquote mb-0">
-        <p class="text-monospace">Přijde vám vaše kočka málo hebká?<br>
-        Vyperte ji v Pervolu a ona zhebne.</p><br>
-        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">bez kočky</cite></footer>
-      </blockquote>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-  <br>
-  <div class="row">
-  <div class="col-md">
-  <div class="card">
-    <div class="card-header">
-     <h3>Zdravotnický vtip</h3>
-    </div>
-    <div class="card-body">
-      <blockquote class="blockquote mb-0">
-        <p class="text-monospace">Mirek byl darovat krev, ale musel utéct.<br>
-        Měli moc otázek, např. "Čí je to krev?",<br>
-      "Proč je jí tolik?", "Proč jsi to přinesl v kýblu?"</p><br>
-        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">s krví</cite></footer>
-      </blockquote>
-    </div>
-  </div>
-</div>
- 
     <br>
-    <div class="col-md">
-    <div class="card">
-      <div class="card-header">
-       <h3>Vtip o vegetariánovi</h3>
-      </div>
-      <div class="card-body">
-        <blockquote class="blockquote mb-0">
-          <p class="text-monospace">Nejironičtější smrt pro vegetariána je,<br>
-          když skončí v masovém hrobě.</p><br>
-          <footer class="blockquote-footer">Jednoduše <cite title="Source Title">v masovém hrobě</cite></footer>
-        </blockquote>
-      </div>
+    <div class="row">
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Vtip o mouše</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">Křičí host na číšníka:<br> "Prosím vás, mám v pivu mouchu."<br> "To musíte dělat takový rozruch kvůli jedné mouše?<br> Vždyť ona vám toho piva moc nevypije"</p><br>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">ze života</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Vtip o finanční situaci</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">"Mám stále větší a větší problémy s pitím piva."<br> povídá Honza svému sousedovi v hostinci.<br> "Co, zdraví?"<br>"Ne, nedostatek peněz."</p><br>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">bez peněz</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div><br>
-      
-<small>&copy; Kájá & Mája, 2020</small>
+
+
+    <br>
+    <div class="row">
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Vtip o posilovně</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">V posilovně, kam chodím, mají nový stroj!<br> Včera jsem ho vyzkoušel a super... Teda vydržel jsem<br> jenom tak půl hodiny, než mě začalo bolet břicho...<br> ale má opravdu všechno! Kit Kat, tyčinky Mars,<br> Red Bully, Coca coly,
+                            brambůrky...
+                        </p><br>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">s tukama</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Vtip o kočce</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">Přijde vám vaše kočka málo hebká?<br> Vyperte ji v Pervolu a ona zhebne.</p><br>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">bez kočky</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br>
+    <div class="row">
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Zdravotnický vtip</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">Mirek byl darovat krev, ale musel utéct.<br> Měli moc otázek, např. "Čí je to krev?",<br> "Proč je jí tolik?", "Proč jsi to přinesl v kýblu?"</p><br>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">s krví</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Vtip o vegetariánovi</h3>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-monospace">Nejironičtější smrt pro vegetariána je,<br> když skončí v masovém hrobě.</p><br>
+                        <footer class="blockquote-footer">Jednoduše <cite title="Source Title">v masovém hrobě</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <small>&copy; Kájá & Mája, 2020</small>
 
 </body>
+
 </html>
