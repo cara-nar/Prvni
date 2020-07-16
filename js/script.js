@@ -5,7 +5,7 @@ function uloz(coUlozit) {
    let input = document.getElementById(coUlozit).value;
    pole.push(input);
    console.log(pole);
-    window.localStorage.setItem(pole[i], input.value);
+    window.localStorage.setItem('ha',pole);
 }
 // document.getElementById("myBtn").onclick = function() {myFunction()};
 
