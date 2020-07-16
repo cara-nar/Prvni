@@ -103,11 +103,11 @@
       #blakecy {
           color: #755a0a;
       }
+      
       #ksa {
         border-radius: 0px;
     }
 
-    
 
     * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -169,3 +169,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+        
